@@ -7,7 +7,7 @@ body {
     color:rgb(165, 26, 26);
     font-size: 35px;
     text-align: center;
-    text-shadow: 2px 2px 4px rgb(25, 9, 161);
+    text-shadow: 2px 2px 2px rgb(25, 9, 161);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
      }
@@ -42,9 +42,9 @@ body {
    }
   
   div{
-    background-color: rgb(207, 178, 204);
-    }
-  a{
+    background-color: rgb(207, 178, 204);}
+    
+     a{
     text-decoration:none;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(31, 18, 204);
@@ -82,7 +82,7 @@ body {
      .div1{
       max-width: 50%;
       margin: auto;
-      width:650px;
+      width:46%;
       height: 630px;
       display: inline-table;
       
@@ -90,7 +90,7 @@ body {
       .div2{
         max-width: 50%;
         margin: auto;
-        width:650px;
+        width:46%px;
         height: 630px;
         display: inline-table; 
                    }
@@ -98,8 +98,8 @@ body {
         .div3{
           max-width: 33,33%;
           margin: auto;
-          width:436px;
-          height:630px;
+          width: 33%;
+          height:680px;
           display: inline-table; 
 
        }
