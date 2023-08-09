@@ -14,6 +14,7 @@ body {
     text-shadow: 2px 2px 2px rgb(25, 9, 161);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
+   
      }
     
     h2 {
@@ -45,17 +46,14 @@ body {
     letter-spacing:normal;
    }
 
-   section{
-    margin: 10px;
-    max-width: 100%;
-    padding: 10px;
-   }
+  
   
   .div1 iframe{
-    display: inline-table;
-    padding: 10px;
-    margin:20px 80px 20px 80px;
-    
+    display: flex;
+    padding: 20px;
+    margin:auto;
+    justify-content: center;
+        
       }
     
      a{
@@ -83,8 +81,8 @@ body {
      }
      .imagem{
       max-width: 80%;
-      width: 300px;
-      height: 330px;;
+      width: 200px;
+      height: 200px;;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -95,7 +93,7 @@ body {
       color: rgb(66, 7, 7);
       font-family: Arial, Helvetica, sans-serif;
      }
-     .div1{
+     /*.div1{
       max-width: 50%;
       margin: auto;
       width: 40%;
@@ -112,16 +110,41 @@ body {
         height: 630px;
         display: inline-table; 
         padding: 0.5%;
-                   }
+                   }*/
+
+        .flexbox1 div{
+          border-radius: 5px;
+         border: 2px solid rgb(202, 115, 115);
+         width: 500px;
+         max-width: 46%;
+         margin: 15px
+        }
+        .flexbox1{
+         heigth: 250px;
+         display: flex;
+         justify-content: center;
+
+        }
+
+        .flexbox3 div{
+          border-radius: 5px;
+         border: 2px solid rgb(202, 115, 115);
+         width: 33%;
+         margin: 15px
+        }
+        .flexbox3{
+         heigth: 250px;
+          display: flex;
+        }
              
-        .div3{
+        /*.div3{
           max-width: 33,33%;
           margin: auto;
          width: 33%;
           height:700px;
           display: inline-table; 
 
-       }
+       }*/
      .container {
       position: relative;
       width: 100%;
@@ -281,6 +304,7 @@ body {
       font-size: 28px;
       font-family: Arial, Helvetica, sans-serif;
    letter-spacing: 3px;
+ 
    }
 
    .topo-container p{
@@ -290,8 +314,11 @@ body {
       text-shadow: 1px 1px 1px  rgb(19, 6, 143);
       font-weight: bold;
       background-color: rgba(0,0,0,0.1);
-      display: inline-block;
+      display:inline-block;
       padding: 10px;
+      font-size: 80%;
+      position: left center;
+     
       }
       .topo-container a{
           text-decoration:none;
@@ -303,7 +330,7 @@ body {
 
           /*fim cabeçalho*/
 
-          /* Ibício menu suspenso*/
+          /* Início menu suspenso*/
           .dropbtn {
               background-color: #4CAF50;
               color: white;
