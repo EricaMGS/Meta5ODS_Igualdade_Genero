@@ -1,6 +1,5 @@
 body {
     background-color:rgb(245, 221, 189);
-    width: 1500 px;
     margin:auto;
     }
 * {
@@ -10,7 +9,7 @@ body {
   h1 {
     color:rgb(165, 26, 26);
     font-size: 35px;
-    text-align: center;
+    text-align: left center;
     text-shadow: 2px 2px 2px rgb(25, 9, 161);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -49,12 +48,12 @@ body {
   
   
   .div1 iframe{
-    display: flex;
-    padding: 20px;
+    display:flex;
     margin:auto;
-    justify-content: center;
-        
-      }
+    width: 430px;
+    height: 350px;
+    
+        }
     
      a{
     text-decoration:none;
@@ -93,32 +92,15 @@ body {
       color: rgb(66, 7, 7);
       font-family: Arial, Helvetica, sans-serif;
      }
-     /*.div1{
-      max-width: 50%;
-      margin: auto;
-      width: 40%;
-      height: 630px;
-      display: inline-table;
-      padding: 3%;
-      margin: 1%;
-      
-            }
-      .div2{
-        max-width: 50%;
-        margin: 1%;
-        width:40%;
-        height: 630px;
-        display: inline-table; 
-        padding: 0.5%;
-                   }*/
+    
 
         .flexbox1 div{
           border-radius: 5px;
-         border: 2px solid rgb(202, 115, 115);
-         width: 500px;
+        border: 2px solid rgb(202, 115, 115);
+         width: auto;
          max-width: 46%;
-         margin: 15px
-        }
+         margin: 15px;
+              }
         .flexbox1{
          heigth: 250px;
          display: flex;
@@ -137,14 +119,7 @@ body {
           display: flex;
         }
              
-        /*.div3{
-          max-width: 33,33%;
-          margin: auto;
-         width: 33%;
-          height:700px;
-          display: inline-table; 
-
-       }*/
+      
      .container {
       position: relative;
       width: 100%;
@@ -295,30 +270,32 @@ body {
   margin: 10px auto 0 50px;
   width: 50%;
   text-align: left;
-  }
+  justify-content: left;
+  max-width: 50%;
+  max-height: 50%;
+   }
   .topo-container h2{
       margin: 10px auto 0 auto;
-      text-align: left;
+      text-align: left center;
       color: rgb(165, 26, 26);
       text-shadow: 1px 1px 1px rgb(25, 9, 161);
       font-size: 28px;
       font-family: Arial, Helvetica, sans-serif;
-   letter-spacing: 3px;
+  
  
    }
 
    .topo-container p{
       margin: 10px auto 0 auto;
-      text-align: left;
+      text-align: left center;
       color: rgb(233, 218, 216);
       text-shadow: 1px 1px 1px  rgb(19, 6, 143);
       font-weight: bold;
       background-color: rgba(0,0,0,0.1);
-      display:inline-block;
-      padding: 10px;
+      display:inline-table;
       font-size: 80%;
-      position: left center;
-     
+      position: left;
+         
       }
       .topo-container a{
           text-decoration:none;
@@ -374,4 +351,13 @@ body {
               float: left;
             }
             /*fim menu suspenso*/
+
+            @media screen and (max-width: 800px) {
+              .section_bloco_inteiro {
+          flex-wrap: wrap;
+                  flex-direction: column; 
+                  align-items: center;
+                  
+              }
+            }          
       
