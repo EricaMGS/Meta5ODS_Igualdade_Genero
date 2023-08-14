@@ -373,7 +373,7 @@ body {
                     }
                 .flexbox1{
                   flex-direction: column;
-                  align-items: center;
+                  align-items: left;
                   width: 700px;
                   height: auto;
                                 }
@@ -389,7 +389,7 @@ body {
 
                   .flexbox3{
                     flex-direction: column;
-                    align-items: center;
+                    align-items: left;
                     width: 800px;
                     height: auto;
                     
