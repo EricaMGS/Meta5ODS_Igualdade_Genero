@@ -354,11 +354,11 @@ body {
 
             @media screen and (max-width: 800px) {
             .topo h1{
-                font-size: 18px;
+                font-size: 16px;
                 text-align: left;}
 
                 .topo h2{
-                  font-size: 15px;
+                  font-size: 14px;
                   text-align: left;}
 
                   .topo p{
@@ -374,18 +374,43 @@ body {
                 .flexbox1{
                   flex-direction: column;
                   align-items: center;
+                  width: 700px;
+                  height: auto;
                                 }
 
                    .flexbox1 h2{
-                  font-size: 15px ;
+                  font-size: 15px ;}
 
+                  .flexbox1 a{
+                    font-size: 12px ;
                                 }  
+                 .flexbox1 p{
+                  font-size: 12px ; } 
 
+                  .flexbox3{
+                    flex-direction: column;
+                    align-items: center;
+                    width: 800px;
+                    height: auto;
+                    
+                   
+                                  }
+                .flexbox3 h1{
+                font-size: 15px ;}
                 .flexbox3 h2{
-                  font-size: 15px ;
-
-                                }  
+                  font-size: 15px ;}  
                   
+                  .flexbox3 a{
+                    font-size: 12px ;
+                                }  
+                 .flexbox3 p{
+                  font-size: 12px ; }  
+                
+                  .flexbox3 p1{
+                    color: blue;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;}
+
                 .div1 iframe{
                 width: 80%;
                 height: auto;
