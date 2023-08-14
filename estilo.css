@@ -353,11 +353,45 @@ body {
             /*fim menu suspenso*/
 
             @media screen and (max-width: 800px) {
-              .section_bloco_inteiro {
-          flex-wrap: wrap;
-                  flex-direction: column; 
+                         
+            
+             
+              .topo h1{
+                font-size: 18px;
+                text-align: left;}
+
+                .topo h2{
+                  font-size: 15px;
+                  text-align: left;}
+
+                  .topo p{
+                    font-size: 10px; }
+                    .topo a{
+                      font-size: 10px; }
+
+                    .topo-container{
+                      align-content: left;
+                      padding: auto;
+                      margin: 2px;
+                    }
+                .flexbox1{
+                  flex-direction: column;
                   align-items: center;
-                  
+                }
+                
+                                              
+        
+              .div1 iframe{
+                width: 80%;
+                height: auto;
+                align-items:center;
+                padding-bottom: 16px;
               }
-            }          
+              .p1{
+                color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 5px;
+                justify-content: center;
+                text-align: center;
+            }    }
       
