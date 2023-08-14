@@ -353,10 +353,7 @@ body {
             /*fim menu suspenso*/
 
             @media screen and (max-width: 800px) {
-                         
-            
-             
-              .topo h1{
+            .topo h1{
                 font-size: 18px;
                 text-align: left;}
 
@@ -377,11 +374,19 @@ body {
                 .flexbox1{
                   flex-direction: column;
                   align-items: center;
-                }
-                
-                                              
-        
-              .div1 iframe{
+                                }
+
+                   .flexbox1 h2{
+                  font-size: 15px ;
+
+                                }  
+
+                .flexbox3 h2{
+                  font-size: 15px ;
+
+                                }  
+                  
+                .div1 iframe{
                 width: 80%;
                 height: auto;
                 align-items:center;
